@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   
+   nav{
+       padding: 15px 35px 5px 35px;
+       background-color:#b4c0cf ;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .navbar-icons { 
+       display:flex;
+       gap: 30px;
+   }
+   
+   section{
+    margin: 20px 40px;
+   }
+   .cooking-class{
+    background-image: url(../../assets/images/cooking\ class.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adventure-time{
+    background-image: url(../../assets/images/activity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-destinations{
+    background-image: url(../../assets/images/Agadir-Maroc-La-Medina-1536x1025.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transparent-square{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(56, 71, 139, 0.404);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: #111010;
+}
+   footer{
+    background-color: #b4c0cf;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around
+}
+ul{
+    list-style-type: none;
+}
+h4{
+    font-weight: lighter;
+    padding-bottom: 7px;
+}
